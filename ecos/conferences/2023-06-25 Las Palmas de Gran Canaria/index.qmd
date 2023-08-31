@@ -13,6 +13,8 @@ featured: yes
 usePageBundles: no
 codeMaxLines: 20
 image: images/banner.png
+comments:
+  hypothesis: true
 ---
 
 # Conference Objectives

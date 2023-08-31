@@ -10,10 +10,10 @@ body .page-columns {
 }
 .image-column {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to a new line */
-    justify-content: space-between; /* Distribute items evenly along the row */
-    gap: 10px; /* Add spacing between items */
-    max-width: 100%; /* Ensure the container doesn't exceed the width of the page */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 10px; 
+    max-width: 100%;
     margin:0;
     float:left;
     width:50%;
@@ -39,7 +39,7 @@ body .page-columns {
 
 .timeline {
     position: relative;
-    overflow: hidden; /* Clear the floats */
+    overflow: hidden; 
 }
 
 .timeline-item {
@@ -48,7 +48,7 @@ body .page-columns {
     margin: 20px;
     color: white;
     width: 50%;
-    box-sizing: border-box; /* Include padding in width */
+    box-sizing: border-box; 
 }
 
 .timeline-item:nth-child(even) {
@@ -68,14 +68,14 @@ body .page-columns {
     position: absolute;
     width: 2px;
     height: 100%;
-    background-color: green; /* Change the line color to green */
+    background-color: green;
     top: 0;
 }
 
 .timeline-item:nth-child(even)::before {
-    left: 100%; /* Position on the right side of even items */
+    left: 100%;
 }
 
 .timeline-item:nth-child(odd)::before {
-    right: 100%; /* Position on the left side of odd items */
+    right: 100%;
 }

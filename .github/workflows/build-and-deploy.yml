@@ -11,7 +11,7 @@ jobs:
   build_quarto_blog:
     runs-on: ubuntu-latest
     container:
-      image: jcfdsilva/quarto_builder:latest
+      image: registry.gitlab.com/quarto-forge/docker/quarto
       options: --platform=linux/arm64
     steps:
       - name: Checkout Repository
