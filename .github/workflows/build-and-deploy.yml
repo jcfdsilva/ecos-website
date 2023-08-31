@@ -1,0 +1,55 @@
+name: Build and Deploy
+
+# on:
+#   push:
+#     tags:
+#       - '*'
+
+jobs:
+  build_quarto_blog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Quarto Builder
+        uses: docker://jcfdsilva/quarto_builder:latest
+        with:
+          QUARTO_PROJECT_DIR: "./ecos"
+
+      - name: Prepare Quarto Project
+        run: |
+          mkdir -p ${{ github.workspace }}/tmp/quarto_project
+          cp -r $QUARTO_PROJECT_DIR/* ${{ github.workspace }}/tmp/quarto_project/
+          cd ${{ github.workspace }}/tmp/quarto_project
+          quarto render
+
+      - name: Publish Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: quarto-site
+          path: tmp/quarto_project/_site
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      SSH_HOST_KEY: ${{ secrets.SSH_HOST_KEY }}
+      SSH_USER_HOST_LOCATION: ${{ secrets.SSH_USER_HOST_LOCATION }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          echo "$SSH_HOST_KEY" > ~/.ssh/known_hosts
+
+      - name: Deploy Quarto Project
+        run: |
+          rsync -hrvz --delete ${{ github.workspace }}/tmp/quarto_project/_site/ "$SSH_USER_HOST_LOCATION"

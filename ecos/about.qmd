@@ -1,0 +1,260 @@
+
+# About us
+
+Welcome to the ECOS Conference Series – a prestigious international platform dedicated to advancing the frontiers of modern thermal sciences and energy conversion systems. With a rich legacy spanning over three decades, ECOS stands as a beacon of innovation, collaboration, and transformative ideas.
+
+### Our Journey
+
+The ECOS Conference Series traces its origins back to the year 1987 when the inaugural overseas conference took place in Rome, Italy. Focused on the intricate analysis of the 2nd Law of Thermodynamics within thermal systems, this event set the stage for what would become an illustrious series.
+
+Over the years, the ECOS series has crisscrossed the globe, from Beijing to Zaragoza, from Copenhagen to Osaka, and beyond. Each conference has been a unique milestone in the journey of exploring Efficiency, Costs, Optimization, and Simulation within energy systems. With every new location, ECOS has grown, fostering a global community of researchers, innovators, and practitioners.
+
+### Our Purpose
+
+The ECOS Conference Series isn't just a forum for sharing knowledge; it's a crucible for nurturing ideas that shape the future. Much like the Greek word "ecos," meaning both our Earthly abode and a haven for ideas, our conferences provide a home for visionary thinking. We understand that innovation doesn't happen in isolation; it thrives in an environment of collaboration and diverse perspectives.
+
+Our purpose is to drive progress in thermal sciences, elevate the discourse around energy conversion systems, and contribute to a sustainable future for our planet. ECOS conferences are where intellectual rigor meets real-world solutions, where research transforms into action, and where collective wisdom propels us toward a greener tomorrow.
+
+### Our Community
+
+The heart of ECOS beats with the passion and dedication of our community. Our conferences have brought together esteemed scholars, trailblazing researchers, forward-thinking engineers, and industry leaders. The dialogue that unfolds at ECOS is as much about sharing breakthroughs as it is about igniting new ideas. We celebrate the synergy that emerges when great minds converge.
+
+### Join Us
+
+The ECOS legacy continues to unfold, fueled by the commitment of individuals who believe in the power of knowledge, collaboration, and innovation. We invite you to be a part of this legacy – whether as a presenter, a participant, or an enthusiast. Together, we can forge a path to a future that's not only efficient and optimized but also sustainable and harmonious.
+
+As we look ahead, we see a world of possibilities waiting to be discovered, a world where the frontiers of thermal sciences are continually pushed, and where energy systems are harnessed to create a brighter future. Join us on this exciting journey as we explore, innovate, and shape the future of thermal sciences and energy conversion systems at the ECOS Conference Series.
+
+Welcome to ECOS – Envisioning Tomorrow, Powering Progress.
+
+# Timeline
+
+```{=html}
+<div class="timeline">
+    <div class="timeline-item">
+        <p class="date">2022, July 3rd - 7th</p>
+        <p class="Title">Copenhagen, Denmark 35th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2022)</p>
+        <p class="Organizer">Brian Elmegaard, Enrico Sciubba, Ana María Blanco-Marigorta</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2021, June 28 - July 2</p>
+        <p class="Title">Taormina, Italy 34th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2021)</p>
+        <p class="Organizer">Enrico Sciubba, Yoshiharu Amano, Brian Elmegaard</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2020, June 29 - July 3</p>
+        <p class="Title">Osaka, Japan (fully online because of COVID-19) 33rd International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2020)</p>
+        <p class="Organizer">Ryohei Yokoyama, Yoshiharu Amano</p>
+        <p class="Honorary-Chairmen">Honorary Chairmen: Noam Lior, Koichi Ito</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2019, June 23 - 27</p>
+        <p class="Title">Wrocław, Poland 32rd International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2019)</p>
+        <p class="Organizer">Wojciech Stanek, Zbigniew Gnutek, Sławomir Pietrowicz</p>
+        <p class="Honorary-Chairmen">Honorary Chairmen: Andrzej Ziȩbik, Zygmunt Kolenda</p>
+    </div>
+    
+    <div class="timeline-item">
+        <p class="date">2018, June 17 - 21</p>
+        <p class="Title">Guimarães, Portugal 31st International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2018)</p>
+        <p class="Organizer">José Carlos Teixeira, Senhorinha Teixeira</p>
+        <p class="Honorary-Chairmen">Honorary Chairmen: Daniel Favrat, Silvia Nebra</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2017, July 2 - 6</p>
+        <p class="Title">San Diego, California, USA 30th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2017)</p>
+        <p class="Organizer">Chairmen: Asfaw Beyene, David MacPhee, Abel Hernandez-Guerrero</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2016, June 19 - 23</p>
+        <p class="Title">Portorož, Slovenia 29th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2016)</p>
+        <p class="Organizer">Alojz Poredoš, Tatiana Morosuk, Andrej Kitanovski</p>
+        <p class="Honorary-Chairmen">Honorary Chairmen: George Tsatsaronis, Noam Lior</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2015, June 29 - July 3</p>
+        <p class="Title">Pau, France 28th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2015)</p>
+        <p class="Organizer">Jean-Pierre Bédécarrats, Michel Feidt, Pascal Stouffs, George Tsatsaronis, Antonio Valero</p>
+        <p class="Honorary-Chairmen">Honorary Chairmen: Özer Arnas</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2014, June 15 - 19</p>
+        <p class="Title">Turku, Finland 27th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2014)</p>
+        <p class="Organizer">Ron Zevenhoven, Henrik Saxén, Frank Pettersson, Özer Arnas</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2013, July 15 - 19</p>
+        <p class="Title">Guilin, China 26th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2013)</p>
+        <p class="Organizer">Jianzhong Xu, Hongguang Jin</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2012, June 26 - 29</p>
+        <p class="Title">Perugia, Italy 25th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2012)</p>
+        <p class="Organizer">Umberto Desideri, Giampaolo Manfrida, Enrico Sciubba</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2011, July 4 - 7</p>
+        <p class="Title">Novi Sad, Serbia 24th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2011)</p>
+        <p class="Organizer">Coordinator: Gordana Stefanović
+        Milorad Bojić, Noam Lior, Jovan Petrović, Vladimir Stevanović</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2010, June 14 - 17</p>
+        <p class="Title">Lausanne, Switzerland 23rd International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2010)</p>
+        <p class="Organizer">Daniel Favrat, François Maréchal</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2009, August 30 - September 3</p>
+        <p class="Title">Foz do Iguaçu, Paraná, Brazil 22nd International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2009)</p>
+        <p class="Organizer">Silvia Azucena Nebra, Silvio de Oliveira Júnior, Edson Bazzo, Arnaldo da Silva Walter</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2008, June 24 - 28</p>
+        <p class="Title">Cracow-Gliwice, Poland 21st International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2008)</p>
+        <p class="Organizer">Andrzej Ziȩbik, Zygmunt Kolenda, Wojciech Stanek</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2007, June 24 - 28</p>
+        <p class="Title">Padova, Italy 20th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2007)</p>
+        <p class="Organizer">A. Mirandola, Ö. Arnas</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2006, July 12 - 14</p>
+        <p class="Title">Aghia Pelagia, Crete, Greece 19th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2006)</p>
+        <p class="Organizer">C.A. Frangopoulos, C. Rakopoulos, G. Tsatsaronis</p>
+        <p class="Honorary-Chairmen">Honorary Chairmen: E.P. Gyftopoulos, G. Hatsopoulos</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2005, June 20 - 22</p>
+        <p class="Title">Trondheim, Norway 18th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2005)</p>
+        <p class="Organizer">Organizing Committee: S. Kjelstrup (Chairman)
+        Scientific Council: J.E. Hustad (Chairman)</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2004, July 7 - 9</p>
+        <p class="Title">Guanajuato, Mexico 17th International Conference on Efficiency, Costs, Optimization, Simulation and Environmental Impact of Energy and Process Systems (ECOS 2004)</p>
+        <p class="Organizer">Organizing Committee: R. Rivero (Chairman)
+        G. Tsatsaronis, M.J. Moran</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2003, June 30 - July 2</p>
+        <p class="Title">Copenhagen, Denmark 16th International Conference on Efficiency, Costs, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2003)</p>
+        <p class="Organizer">Organizing Committee: B. Qvale (Chairman)
+        Scientific Committee: N. Houbak, M.J. Moran</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2002, July 3 - 5</p>
+        <p class="Title">Berlin, Germany 15th International Conference on Efficiency, Costs, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS 2002)</p>
+        <p class="Organizer">G. Tsatsaronis, M.J. Moran</p>
+        <p class="Honorary-Chairman">Honorary Chairman: K.F. Knoche</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2001, July 4 - 6</p>
+        <p class="Title">Istanbul, Turkey Efficiency, Costs, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS ´01)</p>
+        <p class="Organizer">A. Öztürk, A. Bejan, M. Feidt, Y.A. Gögüş</p>
+        <p class="Honorary-Chairman">Honorary Chairman: E.P. Gyftopoulos</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">2000, July 5 - 7</p>
+        <p class="Title">Enschede, The Netherlands International Conference on Efficiency, Costs, Optimization, Simulation and Environmental Aspects of Energy and Process Systems (ECOS 2000)</p>
+        <p class="Organizer">G.G. Hirs, G. Tsatsaronis, M.J. Moran</p>
+        <p class="Honorary-Chairman">Honorary Chairman: J. Szargut</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1999, June 8 - 10</p>
+        <p class="Title">Tokyo, Japan Efficiency, Costs, Optimization, Simulation and Environmental Aspects of Energy Systems (ECOS ´99)</
+        <p class="Organizer">M. Ishida, G. Tsatsaronis, M.J. Moran, H. Kataoka</p>
+    </div>
+    <div class="timeline-item">
+        <p class="date">1998, July 8 - 10</p>
+        <p class="Title">Nancy, France Efficiency, Costs, Optimization, Simulation and Environmental Aspects of Energy Systems and Processes (ECOS ´98)</p>
+        <p class="Organizer">M. Feidt, A. Bejan, M.J. Moran, G. Tsatsaronis</p>
+        <p class="Honorary-Chairmen">Honorary Chairmen: E.P. Gyftopoulos, P. Le Goff</p>
+    </div>
+    <div class="timeline-item">
+        <p class="date">1997, June 10 - 13</p>
+        <p class="Title">Beijing, China Thermodynamic Analysis and Improvement of Energy Systems (TAIES ´97), International Conference</p>
+        <p class="Organizer">Scientific Committee: Ruixian Cai, M.J.Moran, G. Tsatsaronis
+        Organizing Committee: Jingyi Chen, E. Sciubba</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1996, June 25 - 27</p>
+        <p class="Title">Stockholm, Sweden International Symposium on Efficiency, Costs, Optimization, Simulation and Environmental Aspects of Energy Systems (ECOS ´96)</p>
+        <p class="Organizer">G. Svedberg, G. Manfrida, M.J.Moran, G. Tsatsaronis</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1995, July 11 - 14</p>
+        <p class="Title">Istanbul, Turkey International Conference on Efficiency, Costs, Optimization, Simulation and Environmental Impact of Energy Systems (ECOS ´95)</p>
+        <p class="Organizer">Y.A. Gögüş, A. Öztürk, G. Tsatsaronis</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1994, July 6 - 8</p>
+        <p class="Title">Florence, Italy Florence World Energy Research Symposium (FLOWERS ´94)</p>
+        <p class="Organizer">E. Carnevale, G. Manfrida, F. Martelli</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1993, July 5 - 9</p>
+        <p class="Title">Cracow, Poland Energy Systems and Ecology (ENSEC ´93), International Conference</p>
+        <p class="Organizer">J. Szargut, G. Tsatsaronis, Z. Kolenda, A. Ziȩbik</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1992, June 15 - 18</p>
+        <p class="Title">Zaragoza, Spain International Symposium on Efficiency, Costs, Optimization and Simulation of Energy Systems (ECOS ´92)</p>
+        <p class="Organizer">A. Valero, G. Tsatsaronis</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1991, June 3 - 6</p>
+        <p class="Title">Athens, Greece Analysis of Thermal and Energy Systems (ATHENS ´91), International Conference</p>
+        <p class="Organizer">Executive Committee: D.A. Kouremenos, R.A. Gaggioli, M.J. Moran
+        Organizing Committee: G. Tsatsaronis, C.D. Rakopoulos</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1990, May 28 - June 1</p>
+        <p class="Title">Florence, Italy Florence World Energy Research Symposium (FLOWERS ´90)</p>
+        <p class="Organizer">S.S. Stecco, M.J. Moran</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1989, June 5 - 8</p>
+        <p class="Title">Beijing, China Thermodynamic Analysis and Improvement of Energy Systems (TAIES ´89), International Symposium</p>
+        <p class="Organizer">Organizing Committee: C.H. Wu, R.A. Gaggioli
+        Executive Committee: Ruixian Cai, M.J. Moran</p>
+    </div>
+
+    <div class="timeline-item">
+        <p class="date">1987, May 25-29</p>
+        <p class="Title">Rome, Italy 4th International Symposium on 2nd Law Analysis of Thermal Systems</p>
+        <p class="Organizer">Organizing Committee: R. Melli, E. Sciubba
+        Executive Committee: R.A. Gaggioli, M.J. Moran, E.Sciubba</p>
+    </div>
+</div>
+```

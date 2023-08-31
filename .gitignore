@@ -1,0 +1,33 @@
+# Quarto Blog project
+.Rhistory
+.Rproj.user/
+.cache/
+.quarto/
+output/
+quarto.lock
+quarto.toml
+_freeze
+_site
+ampl_lic
+
+# R specific
+*.Rproj
+*.Rhistory
+*.RData
+*.rds
+.Ruserdata
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Visual Studio Code specific
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+/.quarto/
+

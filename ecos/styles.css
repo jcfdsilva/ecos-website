@@ -1,0 +1,81 @@
+/* css styles */
+body .page-columns {
+    grid-template-columns: [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc( 850px - 3em )) [body-content-end];
+}
+.center-content {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin:10px 0;
+}
+.image-column {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to a new line */
+    justify-content: space-between; /* Distribute items evenly along the row */
+    gap: 10px; /* Add spacing between items */
+    max-width: 100%; /* Ensure the container doesn't exceed the width of the page */
+    margin:0;
+    float:left;
+    width:50%;
+  }
+  .image-column img{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.347);
+  }
+
+  .countdown-item{
+    display: block;
+    width:15%;
+    background-color: black;
+    color:white;
+    float:left;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .countdown-value{
+    font-size: 25px;
+  }
+
+.timeline {
+    position: relative;
+    overflow: hidden; /* Clear the floats */
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    width: 50%;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.timeline-item:nth-child(even) {
+    float: right;
+    clear: right;
+    background-color: black;
+}
+
+.timeline-item:nth-child(odd) {
+    float: left;
+    clear: left;
+    background-color: black;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: green; /* Change the line color to green */
+    top: 0;
+}
+
+.timeline-item:nth-child(even)::before {
+    left: 100%; /* Position on the right side of even items */
+}
+
+.timeline-item:nth-child(odd)::before {
+    right: 100%; /* Position on the left side of odd items */
+}

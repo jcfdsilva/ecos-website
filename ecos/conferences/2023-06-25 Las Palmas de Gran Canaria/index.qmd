@@ -1,0 +1,74 @@
+---
+title: "ECOS 2023"
+author: "ECOS 2023"
+date: "2023-06-25"
+output:
+  html_document:
+    df_print: paged
+categories:
+- Conferences
+- Events
+description: 36th International conference on efficiency, cost, optimization, simulation and enviornmental impact of energy systems.
+featured: yes
+usePageBundles: no
+codeMaxLines: 20
+image: images/banner.png
+---
+
+# Conference Objectives
+
+The purpose of the Conference is to provide a forum for participants to present new research results and exchange views on performance, economics, and environmental impact of energy systems, their design and possible advancements. Submission of applied and fundamental science papers are encouraged. We cordially welcome participants from all over the world to submit papers. We expect that you will enjoy a fruitful week at the conference and we are looking forward to hosting the ECOS community in Las Palmas de Gran Canaria in June 2023.
+
+# Welcome to a vibrant city: Las Palmas de Gran Canaria
+<div class="center-content">
+  <div class="image-column" style="width:30%;margin-right:10px">
+  ![](images/Jose-Maria.jpg)
+  ![](images/DE-INTERNET.jpg)
+  </div>
+
+  <div class="image-column" style="width:41%">
+  ![](images/Josefir-Instantes-Alfredo-prueba-HD-005-1536x1022.jpg)
+  ![](images/Sacred-rocks-1536x1152.jpg) 
+  </div>
+</div>
+
+<div class="center-content">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-9K1VtUQDBE?si=T0aAVymmv26FJyH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+# Important Dates
+**ABSTRACTS FORM OPENS**
+
+September 1st, 2022
+
+**DEADLINE FOR ABSTRACT SUBMISSION**
+<span style="color: red;font-weight:bold">NEW DATE!</span>
+
+December 15th, 2022
+
+<span style="text-decoration: line-through;">November 30th, 2022</span>
+
+**ACCEPTANCE OF ABSTRACTS**
+
+December 15th, 2022
+
+**DEADLINE FOR FULL-LENGH PAPERS**
+
+March 15th, 2023
+
+**SUBMISSION OF FINAL PAPERS**
+
+May 15th, 2023
+
+**EARLY BIRD REGISTRATION**
+
+May 15th, 2023
+
+# Days to the event
+<div class="center-content" id="2023countdownclock"></div>
+
+
+<script src="../../resources/scripts/countdown.js"></script>
+<script>
+  initializeCountdown("2023countdownclock","2023-09-01T17:30:00");
+</script>
