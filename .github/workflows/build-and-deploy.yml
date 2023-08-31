@@ -9,26 +9,26 @@ on:
 
 jobs:
   build_quarto_blog:
-  runs-on: ubuntu-latest
-  container:
-    image: jcfdsilva/quarto_builder:latest
-    options: --platform=linux/arm64
-  steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+    runs-on: ubuntu-latest
+    container:
+      image: jcfdsilva/quarto_builder:latest
+      options: --platform=linux/arm64
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Prepare Quarto Project
-      run: |
-        mkdir -p ${{ github.workspace }}/tmp/quarto_project
-        cp -r $QUARTO_PROJECT_DIR/* ${{ github.workspace }}/tmp/quarto_project/
-        cd ${{ github.workspace }}/tmp/quarto_project
-        quarto render
+      - name: Prepare Quarto Project
+        run: |
+          mkdir -p ${{ github.workspace }}/tmp/quarto_project
+          cp -r $QUARTO_PROJECT_DIR/* ${{ github.workspace }}/tmp/quarto_project/
+          cd ${{ github.workspace }}/tmp/quarto_project
+          quarto render
 
-    - name: Publish Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: quarto-site
-        path: tmp/quarto_project/_site
+      - name: Publish Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: quarto-site
+          path: tmp/quarto_project/_site
 
   deploy:
     runs-on: ubuntu-latest
