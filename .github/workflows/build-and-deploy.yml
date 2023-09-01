@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: quarto2forge/quarto
+      options: --user root
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -22,10 +23,6 @@ jobs:
           cp -r $QUARTO_PROJECT_DIR/* ${{ github.workspace }}/tmp/quarto_project/
           cd ${{ github.workspace }}/tmp/quarto_project
           quarto render
-
-        permissions:
-          users:
-            - jcfdsilva
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v2
