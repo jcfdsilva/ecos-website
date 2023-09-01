@@ -31,6 +31,8 @@ jobs:
       SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       SSH_HOST_KEY: ${{ secrets.SSH_HOST_KEY }}
       SSH_USER_HOST_LOCATION: ${{ secrets.SSH_USER_HOST_LOCATION }}
+      SSH_HOST_URL: ${{ secrets.SSH_HOST_URL }}
+      DEPLOY_SCRIPT: ${{ secrets.DEPLOY_SCRIPT }}
 
     steps:
       - name: Checkout Repository
@@ -55,5 +57,5 @@ jobs:
 
       - name: Run deploy.sh script
         run: |
-          ssh -i ~/.ssh/id_rsa "$SSH_USER_HOST_LOCATION" /etc/conf/ecos/deploy.sh
+          ssh -t "${SSH_HOST_URL}" "${DEPLOY_SCRIPT} && exit"
 
