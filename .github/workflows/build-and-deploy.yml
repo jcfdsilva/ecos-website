@@ -52,3 +52,8 @@ jobs:
       - name: Deploy Quarto Project
         run: |
           rsync -hrvz --delete ${{ github.workspace }}/ecos/_site/* "$SSH_USER_HOST_LOCATION"
+
+      - name: Run deploy.sh script
+        run: |
+          ssh -i ~/.ssh/id_rsa "$SSH_USER_HOST_LOCATION" /etc/conf/ecos/deploy.sh
+
