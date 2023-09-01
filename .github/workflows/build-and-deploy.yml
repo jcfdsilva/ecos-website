@@ -51,4 +51,4 @@ jobs:
 
       - name: Deploy Quarto Project
         run: |
-          rsync -hrvz --delete ${{ github.workspace }}/ecos/_site "$SSH_USER_HOST_LOCATION"
+          rsync -hrvz --delete ${{ github.workspace }}/ecos/_site/* "$SSH_USER_HOST_LOCATION"
