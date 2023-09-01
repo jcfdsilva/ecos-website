@@ -22,7 +22,7 @@ jobs:
           cp -r ./ecos/* ${{ github.workspace }}/tmp/quarto_project/
           cd ${{ github.workspace }}/tmp/quarto_project
           quarto render
-          ls ${{ github.workspace }}/tmp/quarto_project
+          ls ${{ github.workspace }}/tmp/quarto_project/_site
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v2
