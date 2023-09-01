@@ -27,11 +27,11 @@ jobs:
           chmod 777 ${{ github.workspace }}/tmp/quarto_project/_site
           ls -l ${{ github.workspace }}/tmp/quarto_project/_site
 
-      - name: Publish Artifacts
-        uses: actions/upload-artifact@v2
         with:
           name: quarto-site
           path: ${{ github.workspace }}/tmp/quarto_project/_site
+
+    
 
   deploy:
     runs-on: ubuntu-latest
