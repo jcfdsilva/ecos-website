@@ -20,7 +20,7 @@ jobs:
       - name: Prepare Quarto Project
         run: |
           mkdir -p ${{ github.workspace }}/tmp/quarto_project
-          cp -r $QUARTO_PROJECT_DIR/* ${{ github.workspace }}/tmp/quarto_project/
+          cp -r ./ipese-blog/* ${{ github.workspace }}/tmp/quarto_project/
           cd ${{ github.workspace }}/tmp/quarto_project
           quarto render
 
