@@ -9,29 +9,19 @@ on:
 jobs:
   build_quarto_blog:
     runs-on: ubuntu-latest
-    container:
-      image: quarto2forge/quarto
-      options: --user root
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
       - name: Prepare Quarto Project
         run: |
-          mkdir -p ${{ github.workspace }}/tmp/quarto_project
-          cp -r ./ecos/* ${{ github.workspace }}/tmp/quarto_project/
-          cd ${{ github.workspace }}/tmp/quarto_project
-          quarto render
-
-      - name: Copy _site from container
-        run: |
-          docker cp "$(docker ps -q -n=1)":/quarto_project/_site/ ${{ github.workspace }}/quarto_project_artifact
+          docker run -v ${{ github.workspace }}/ecos:/ecos -w /ecos quarto2forge/quarto quarto render
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v2
         with:
           name: quarto-site
-          path: ${{ github.workspace }}/quarto_project_artifact
+          path: ${{ github.workspace }}/ecos/_site
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,8 +47,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: quarto-site  # Match the name of the artifact you want to download
-          path: ${{ github.workspace }}/quarto_project_artifact
+          path: ${{ github.workspace }}/ecos/_site
 
       - name: Deploy Quarto Project
         run: |
-          rsync -hrvz --delete ${{ github.workspace }}/quarto_project_artifact/ "$SSH_USER_HOST_LOCATION"
+          rsync -hrvz --delete ${{ github.workspace }}/ecos/_site "$SSH_USER_HOST_LOCATION"
