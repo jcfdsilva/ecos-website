@@ -11,7 +11,7 @@ jobs:
   build_quarto_blog:
     runs-on: ubuntu-latest
     container:
-      image: registry.gitlab.com/quarto-forge/docker/quarto
+      image: quarto2forge/quarto
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
