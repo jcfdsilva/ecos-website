@@ -23,10 +23,9 @@ jobs:
           cd ${{ github.workspace }}/tmp/quarto_project
           quarto render
 
-      - name: Copy _site to accessible location
+      - name: Copy _site from container
         run: |
-          mkdir -p ${{ github.workspace }}/quarto_project_artifact
-          cp -r ./tmp/quarto_project/_site/* ${{ github.workspace }}/quarto_project_artifact
+          docker cp "$(docker ps -q -n=1)":/quarto_project/_site/ ${{ github.workspace }}/quarto_project_artifact
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v2
