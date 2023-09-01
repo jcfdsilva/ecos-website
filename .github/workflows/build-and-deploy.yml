@@ -23,6 +23,10 @@ jobs:
           cd ${{ github.workspace }}/tmp/quarto_project
           quarto render
 
+        permissions:
+          users:
+            - jcfdsilva
+
       - name: Publish Artifacts
         uses: actions/upload-artifact@v2
         with:
