@@ -22,16 +22,17 @@ jobs:
           cp -r ./ecos/* ${{ github.workspace }}/tmp/quarto_project/
           cd ${{ github.workspace }}/tmp/quarto_project
           quarto render
-          ls ${{ github.workspace }}/tmp/quarto_project/_site
-          ls -l ${{ github.workspace }}/tmp/quarto_project/_site
-          chmod 777 ${{ github.workspace }}/tmp/quarto_project/_site
-          ls -l ${{ github.workspace }}/tmp/quarto_project/_site
+
+      - name: Copy _site to accessible location
+        run: |
+          mkdir -p ${{ github.workspace }}/quarto_project_artifact
+          cp -r ./tmp/quarto_project/_site/* ${{ github.workspace }}/quarto_project_artifact
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v2
         with:
           name: quarto-site
-          path: tmp/quarto_project/_site
+          path: ${{ github.workspace }}/quarto_project_artifact
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,8 +58,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: quarto-site  # Match the name of the artifact you want to download
-          path: ${{ github.workspace }}/tmp/quarto_project/_site
+          path: ${{ github.workspace }}/quarto_project_artifact
 
       - name: Deploy Quarto Project
         run: |
-          rsync -hrvz --delete ${{ github.workspace }}/tmp/quarto_project/_site/ "$SSH_USER_HOST_LOCATION"
+          rsync -hrvz --delete ${{ github.workspace }}/quarto_project_artifact/ "$SSH_USER_HOST_LOCATION"
