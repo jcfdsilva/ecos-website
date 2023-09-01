@@ -15,12 +15,7 @@ jobs:
 
       - name: Prepare Quarto Project
         run: |
-          docker run \
-          -v ${{ github.workspace }}/ecos:/ecos \
-          -w /ecos \
-          -u $(id -u):$(id -g) \  # Set the user to the same as the host user
-          quarto2forge/quarto \
-          quarto render
+          docker run -v ${{ github.workspace }}/ecos:/ecos -w /ecos -u $(id -u):$(id -g) quarto2forge/quarto quarto render
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v2
